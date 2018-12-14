@@ -1,0 +1,122 @@
+.index-banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url('../../images/gallery10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: content-box;
+}
+
+
+
+body {
+}
+
+/*#image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/gallery10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+
+  }*/
+
+  .border {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 380px;
+    height: 500px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    background:rgba(0,150,136,0.3);
+    background: rgba(0, 150, 136, 0.6);
+    margin-left: 8%;
+ /* margin-left: 60%;
+ margin-top: 20%;*/
+/*  float: right;
+  margin-top: 150px;
+  margin-right: 100px;*/
+  /*float: right;
+  position: absolute;
+  top: 50px;
+  left: 900px;
+  
+  position: fixed;*/
+  
+
+}
+
+p {
+
+  color: white;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: #EFA35C;
+  
+}
+
+.border img {
+  text-align: center;
+  width: 100px;
+  height: 70px;
+}
+
+.index-banner .btn {
+  background-color: #0E3150;
+  color: #FFC0C2;
+  font-size: 25px;
+  /*padding: 12px 24px;*/
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  /*position: absolute;
+  top: 70%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  */
+}
+
+.index-banner .btn:hover {
+  background-color: #FFC0C2;
+  color: #0E3150;
+  opacity: 0.3;
+
+}
+
+@media (max-width: 520px) {
+
+  .index-banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('../../images/gallery10mob.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+  }
+
+  .border {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    background:rgba(0,150,136,0.3);
+    background: rgba(0, 150, 136, 0.6);
+    margin: 0 auto;
+    clear: both;
+  }
+}

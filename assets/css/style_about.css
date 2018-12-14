@@ -1,0 +1,114 @@
+body {
+	font-family: 'Poppins', 'sans-serif';
+}
+
+/* Start of nav bar styles */
+#whole-cont {
+	padding: 0;
+	width: 100%;
+}
+
+#transparent{
+	height: 120px;
+	position: absolute;
+	transform: translateY(0);
+	z-index: 999999;
+	width: 100%;
+
+}
+
+/*#logo {
+	width: 80px;
+	height: 60px;
+}*/
+#logo {
+	max-width: 60px;
+	max-height: 50px;
+}
+
+.logo-border {
+	border: 1px solid white;
+}
+
+#white-txt {
+	color: #FFF;
+	font-size: 0.875em;
+
+}
+
+.container2 {
+	border: 1px solid white;
+	/*width: 600px;*/
+	height: auto;
+	padding: 60px;
+	margin-bottom: 60px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background-color: #F7E9E3;
+}
+
+h3 {
+	color: #264E70;
+}
+
+h6 {
+	color: #679186;
+}
+
+p {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 14px;
+}
+#nav-hover {
+	color: #FFF;
+	font-family: 'Futura Book',sans-serif;
+	font-size: 0.875em;
+
+}
+
+#nav-hover:hover {
+		/*border-bottom: 2px solid green;*/
+		color: #C7B198;
+	}
+
+.banner-txt {
+	position: relative;
+	transform: translateY(-200px);
+	color: #efa35c;
+}
+
+/* End of nav bar styles */
+
+/* FOOTER */
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+
+
+/* ------------------------------------------------ */
+/* Always include above */
+
+
+
+
+@media (max-width: 500px) {
+	.banner-txt {
+		position: relative;
+		transform: translateY(-100px);
+		color: #efa35c;
+	}
+}
+
+
+@media (max-width: 320px) {
+	.banner-txt {
+		position: relative;
+		transform: translateY(-80px);
+		color: #efa35c;
+	}
+}

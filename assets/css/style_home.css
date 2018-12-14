@@ -1,0 +1,179 @@
+body {
+	font-family: 'Futura Book',sans-serif;
+}
+
+/* Start of nav bar styles */
+#whole-cont {
+	padding: 0;
+	width: 100%;
+}
+
+#transparent{
+	height: 120px;
+	position: absolute;
+	transform: translateY(0);
+	z-index: 999999;
+	width: 100%;
+
+}
+
+/*#logo {
+	width: 80px;
+	height: 60px;
+}*/
+#logo {
+	max-width: 60px;
+	max-height: 50px;
+}
+
+.logo-border {
+	border: 1px solid white;
+}
+
+#white-txt {
+	color: #FFF;
+	font-size: 0.875em;
+
+}
+
+.container2 {
+	border: 1px solid white;
+	width: 600px;
+	height: auto;
+	padding: 60px;
+	margin-top: 200px;
+	margin-bottom: 60px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background-color: #F7E9E3;
+}
+
+h3 {
+	color: #264E70;
+}
+
+h6 {
+	color: #679186;
+}
+
+.container2 p {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 14px;
+}
+
+#nav-hover {
+	color: #FFF;
+	font-family: 'Futura Book',sans-serif;
+	font-size: 0.875em;
+
+}
+
+#nav-hover:hover {
+		/*border-bottom: 2px solid green;*/
+		color: #C7B198;
+	}
+
+#bannertitle h1 {
+	color: white;
+	font-size: 20px;
+}
+
+/* End of nav bar styles */
+
+/* FOOTER */
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+#section-center {
+	margin: 50px auto 30px auto;
+}
+
+/* ------------------------------------------------ */
+/* Always include above */
+
+
+.container2 {
+	width: 100%;
+	height: auto;
+	/*text-align: center;
+	align-content: center;
+	padding: 50px 20px 50px 20px;*/
+	color: #EA8A8A;
+
+}
+
+.container2 p {
+	/*padding: 20px 250px 20px 250px;*/
+	font-family: 'Cuprum', sans-serif;
+	font-size: 0.950em
+}
+
+.caption p {
+	font-family: 'Cuprum', sans-serif;
+}
+
+
+.container3 {
+	/*background-color: #EBD5D5;*/
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+#highlights {
+	color: #EFA35C;
+}
+
+.container3 #offers {
+	color: #1B3764;
+}
+
+.caption #square {
+	color: #326765;
+}
+
+
+.thumbnail {
+    /*position: relative;
+    padding: 0px;*/
+/*    margin: 20px;*/
+    /*align-content: center;*/
+    text-align: center;
+    text-justify: inter-word;
+}
+
+#thumbnail-img {
+	width: 100%;
+    max-width: 400px;
+}
+
+
+
+
+/*.thumbnail img {
+    width: 100%;
+    height: 300px;
+}*/
+
+
+#highlights{
+	text-align: center;
+	
+}
+#offers{
+	text-align: center;
+}
+
+#italic {
+	font-family: 'Dancing Script', cursive;
+	font-family: 0.890em
+}
+.caption p {
+	font-family: cantarell;
+	font-size: 14px;
+}

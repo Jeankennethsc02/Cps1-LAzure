@@ -1,0 +1,62 @@
+.contactcontainer{
+	width: 100%;
+	height: auto;
+	/*position: absolute;*/
+	/*background-color: black;*/
+
+}
+
+.parentcontact {
+	position: relative;
+}
+
+#transparent{
+	height: 120px;
+	position: absolute;
+	transform: translateY(0);
+	z-index: 999999;
+
+}
+
+#navbar-nav {
+	padding-left: 750px;
+	color: white;
+}
+
+#navbar-nav a.nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-item {
+	font-family: 'Futura Book',sans-serif;
+    font-size: 0.900em;
+    
+}
+
+#border {
+	border: 1px solid  white;
+	height: 80px;
+	width: 200;
+	font-size: 0.600em;
+	
+}
+
+.buttondown {
+	margin: 0 auto;
+}
+
+
+#buttondown {
+
+	position: absolute; 
+	top: 85%; 
+	left: 52%; 
+	transform: translate(-50%, -50%); 
+	color: white; 
+	font-family: 'Open Sans',sans-serif; 
+	font-size: 70px; 
+	-ms-transform: translate(-50%, -50%); 
+	
+}
+
+

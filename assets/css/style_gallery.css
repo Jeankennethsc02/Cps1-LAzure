@@ -1,0 +1,154 @@
+body {
+	font-family: 'Poppins', 'sans-serif';
+}
+
+#whole-cont {
+	padding: 0;
+	width: 100%;
+}
+
+#transparent{
+	height: 120px;
+	position: absolute;
+	transform: translateY(0);
+	z-index: 999999;
+	width: 100%;
+
+}
+
+#logo {
+	max-width: 60px;
+	max-height: 50px;
+}
+
+.logo-border {
+	border: 1px solid white;
+}
+
+/*#navbar-nav {
+	margin-left: 70%;
+	}*/
+
+	#white-txt {
+		color: #FFF;
+		font-size: 0.875em;
+	}
+
+
+
+	#nav-hover {
+		color: #FFF;
+		font-family: 'Futura Book',sans-serif;
+		font-size: 0.875em;
+
+	}
+
+/*.gallery-section {
+	width: 2500px;
+	height: 2500px;
+}
+*/
+/* my template*/
+#nav-hover:hover {
+	/*border-bottom: 2px solid green;*/
+	color: #C7B198;
+}
+
+.section-container {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+#title {
+	text-align: center;
+	color: #585858;
+}
+
+.title-decor {
+	position: absolute;
+}
+
+#title {
+	text-align: center;
+	color: #585858;
+}
+
+.bar {
+	text-align: center;
+	position: relative;
+	transform: translateY(-80%);
+}
+
+.red {
+	font-size: 35px;
+	font-weight: bold;
+	color: #fe0002;
+}
+
+.green {
+	font-size: 35px;
+	font-weight: bold;
+	color: #009d02;
+}
+
+/* FOOTER */
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+
+
+/* ------------------------------------------------ */
+/* Always include above */
+
+/* Height of banner img */
+.banner-img {
+	max-height: 600px;
+	height: 100%;
+	width: 100%;
+}
+
+.banner-txt {
+	position: relative;
+	transform: translateY(-200px);
+	color: #FFF;
+}
+
+.gallery-section {
+	margin: 0 auto;
+}
+
+.row {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* thumbnail size */
+.gal-img {
+	max-width: 300px;
+	width: 100%;
+}
+
+#myImg {
+	width: 100%;
+	max-width: 1600px;
+	height: auto;
+}
+
+#modal-box {
+	width: 100%;
+	max-width: 900px;
+}
+
+
+@media (max-width: 500px) {
+	.banner-txt {
+		position: relative;
+		transform: translateY(-100px);
+		color: white;
+	}
+}
